@@ -1,0 +1,4 @@
+﻿  Device.cpp
+C:\Dev\Wireframe\Device.cpp(22,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Dev\Wireframe\Device.cpp(22,66): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  Wireframe.vcxproj -> C:\Dev\Wireframe\Debug\Wireframe.exe

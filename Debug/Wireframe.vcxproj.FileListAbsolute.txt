@@ -1,0 +1,2 @@
+C:\Dev\Wireframe\Debug\Wireframe.exe
+C:\Dev\Wireframe\Debug\Wireframe.pdb
