@@ -11,6 +11,8 @@ class Device
 private:
 	XMVECTOR up;
 	XMFLOAT2 project(XMFLOAT3 coordinate, XMMATRIX transformation);
+	void putPixel(float x, float y, XMFLOAT3 color);
+	void clear_frame();
 public:
 	XMFLOAT3* frame;
 	unsigned frame_size, pixel_width, pixel_height;
@@ -24,5 +26,6 @@ public:
 	}
 
 	void render(Camera camera, std::vector<Mesh> meshes);
+	void saveToFile();
 };
 
